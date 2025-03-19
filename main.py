@@ -6,7 +6,7 @@ from config_parser import load_config
 from template_renderer import render_report
 
 app = FastAPI()
-
+# ehllo
 @app.get("/")
 def read_root():
     return {"message": "Welcome to the (Deliberately) Vulnerable App!"}
