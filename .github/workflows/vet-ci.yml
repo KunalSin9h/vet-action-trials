@@ -27,6 +27,10 @@ jobs:
         id: checkout
         uses: actions/checkout@v4
 
+      - name: Check go installed 
+        run: |
+          go version
+
       - name: Run vet
         id: vet
         uses: safedep/vet-action@v1
