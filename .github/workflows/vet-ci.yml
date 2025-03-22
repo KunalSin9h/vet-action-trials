@@ -30,6 +30,7 @@ jobs:
       - name: Check go installed 
         run: |
           go version
+          which go
 
       - name: Run vet
         id: vet
